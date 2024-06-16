@@ -46,7 +46,22 @@ st.markdown(
         max-width: 100%;
         border-radius: 10px;
     }
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
     </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Display the custom logo from the provided link
+st.markdown(
+    """
+    <div class="logo">
+        <img src="https://drive.google.com/uc?export=download&id=1paMb07BQiLL2hf7k98D07HMIjSGF0o7S" alt="Custom Logo" width="200">
+    </div>
     """,
     unsafe_allow_html=True
 )
@@ -69,23 +84,3 @@ with st.container():
         When I'm not coding, I enjoy hiking, reading, and exploring new technologies.
         """
     )
-
-# No Portfolio Section, as requested
-
-# Adjusted max-width and centering for main content
-st.markdown(
-    """
-    <style>
-    .reportview-container .main .block-container {
-        max-width: 800px;
-        padding-top: 2rem;
-        padding-right: 2rem;
-        padding-left: 2rem;
-        padding-bottom: 2rem;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-
