@@ -23,7 +23,7 @@ st.markdown(
         <p style="color: black; font-weight: bold;">I have a passion for technology and a strong background in coding.</p>
         <p style="color: black; font-weight: bold;">I love using Python to create automated solutions and help others improve their workflows.</p>
         <p style="color: black; font-weight: bold;">When I'm not coding, I enjoy travelling, cars, and exploring new technologies.</p>
-    </div>
+    </div> 
     """,
     unsafe_allow_html=True,
 )
@@ -33,8 +33,8 @@ st.markdown(
     """
     <div style="max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid black; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
         <h2 style="color: black; font-weight: bold;">Contact Me 📞</h2>
-        <p style="color: black; font-weight: bold;">Email: <a href="yherdogan@icloud.com" style="color: black; text-decoration: none;">your_email@example.com</a></p>
-        <p style="color: black; font-weight: bold;">Phone: <a href="tel:+1 6692712546" style="color: black; text-decoration: none;">+1234567890</a></p>
+        <p style="color: black; font-weight: bold;">Email: <a href="yherdogan@icloud.com" style="color: black; text-decoration: none;">yherdogan@icloud.com</a></p>
+        <p style="color: black; font-weight: bold;">Phone: <a href="tel:+1 6692712546" style="color: black; text-decoration: none;">+1 669-271-2546</a></p>
     </div>
     """,
     unsafe_allow_html=True,
