@@ -34,7 +34,7 @@ st.markdown(
     <div style="max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid black; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
         <h2 style="color: black; font-weight: bold;">Contact Me 📞</h2>
         <p style="color: black; font-weight: bold;">Email: <a href="yherdogan@icloud.com" style="color: black; text-decoration: none;">yherdogan@icloud.com</a></p>
-        <p style="color: black; font-weight: bold;">Phone: <a href="tel:" style="color: black; text-decoration: none;"></a></p>
+        
     </div>
     """,
     unsafe_allow_html=True,
