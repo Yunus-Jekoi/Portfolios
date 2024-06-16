@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set the page configuration
-st.set_page_config(page_title="Yunus's Portfolio", page_icon="🇾🇭", layout="centered")
+st.set_page_config(page_title="Yunus's Portfolio", page_icon=":computer:", layout="centered")
 
 # Custom CSS for styling
 st.markdown(
@@ -57,14 +57,6 @@ st.markdown(
 )
 
 # Display the custom logo from the provided link
-st.markdown(
-    """
-    <div class="logo">
-        <img src="https://drive.google.com/uc?export=download&id=1paMb07BQiLL2hf7k98D07HMIjSGF0o7S" alt="Custom Logo" width="200">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 # ---- HEADER SECTION ----
 with st.container():
