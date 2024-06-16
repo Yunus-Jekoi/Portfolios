@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set the page configuration
-st.set_page_config(page_title="Yunus's Portfolio", page_icon=":tada:", layout="centered")
+st.set_page_config(page_title="Yunus's Portfolio", page_icon="🇾🇭", layout="centered")
 
 # Custom CSS for styling
 st.markdown(
