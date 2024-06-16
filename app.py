@@ -8,8 +8,8 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #000000; /* Set background color to black */
-        color: #ffffff; /* Set text color to white */
+        background-color: #FFFFFF; /* Set background color to black */
+        color: #000000; /* Set text color to white */
         font-family: 'Arial', sans-serif;
     }
     .container {
@@ -61,7 +61,7 @@ st.markdown(
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Yunus :wave:")
-    st.title("A software engineer in the U.S.")
+    st.title("A software engineer in the U.S. :technologist: ")
     st.write(
         "I am passionate about finding ways to use Python in a way to automate and help others :heart:"
     )
@@ -73,6 +73,6 @@ with st.container():
         """
         Hi, I'm Yunus. I have a passion for technology and a strong background in software engineering.
         I love using Python to create automated solutions and help others improve their workflows.
-        When I'm not coding, I enjoy hiking, reading, and exploring new technologies.
+        When I'm not coding, I enjoy biking, cars, and exploring new technologies.
         """
     )
