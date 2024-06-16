@@ -27,3 +27,15 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+# ---- CONTACT ME SECTION ----
+st.markdown(
+    """
+    <div style="max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid black; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h2 style="color: black; font-weight: bold;">Contact Me 📞</h2>
+        <p style="color: black; font-weight: bold;">Email: <a href="yherdogan@icloud.com" style="color: black; text-decoration: none;">your_email@example.com</a></p>
+        <p style="color: black; font-weight: bold;">Phone: <a href="tel:+1 6692712546" style="color: black; text-decoration: none;">+1234567890</a></p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
